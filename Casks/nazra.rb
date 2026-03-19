@@ -1,12 +1,12 @@
 cask "nazra" do
-  version "1.0.0"
+  version "1.1.0"
 
   if Hardware::CPU.arm?
-    url "https://github.com/ZedObaia/stashviewer/releases/download/v1.0.0/Nazra_1.0.0_aarch64.dmg"
-    sha256 "a827bc2a8b9c8354573705e0fc72472428970551c9b99a73b0d026f6fe0c55f1"
+    url "https://github.com/ZedObaia/stashviewer/releases/download/v1.1.0/Nazra_1.1.0_aarch64.dmg"
+    sha256 "7b61de8d9089b69a0b23250c7e7809ed98563bbe443a840b4e1ad9d53b749206"
   else
-    url "https://github.com/ZedObaia/stashviewer/releases/download/v1.0.0/Nazra_1.0.0_x64.dmg"
-    sha256 "7e53ce813092a22fcc673406e38b8e7ca09047c9ff71573016fef4e05cdd9f01"
+    url "https://github.com/ZedObaia/stashviewer/releases/download/v1.1.0/Nazra_1.1.0_x64.dmg"
+    sha256 "9fd51ef683b4c15b12c2413056499964c6fe62779e338e776161d3d43fd37a07"
   end
 
   name "Nazra"
